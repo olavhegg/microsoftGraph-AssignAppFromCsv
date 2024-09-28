@@ -6,6 +6,7 @@
 # Define file paths
 $csvInputPath = "$PSScriptRoot/../ExternalDevices.csv"
 $outputFilePath = "$PSScriptRoot/../files/EntraObjectIDs.csv"
+$devicesWithoutIdFile = "$PSScriptRoot/../files/DevicesWithoutEntraID.csv"
 
 # Ensure Microsoft Graph Beta module is imported
 Import-Module Microsoft.Graph.Beta.Identity.DirectoryManagement
@@ -29,6 +30,7 @@ try {
 
 # Prepare for output
 $results = @()
+$devicesWithoutId = @()
 
 # Check if there are devices to process
 $totalDevices = $deviceNames.Count
@@ -41,10 +43,8 @@ if ($totalDevices -eq 0) {
 # Process each device and query Microsoft Graph for Object ID
 Write-Host "Collecting EntraObject IDs..."
 foreach ($deviceName in $deviceNames) {
-    $currentDevice++
-    $progress = ($currentDevice / $totalDevices) * 100
-    Write-Progress -Activity "Collecting EntraObject IDs" -Status "$([math]::Round($progress, 2))% Complete" -PercentComplete $progress
 
+    # Query Microsoft Graph for Object ID
     $objectId = Get-DeviceObjectId -DeviceName $deviceName
 
     if ($objectId) {
@@ -54,8 +54,16 @@ foreach ($deviceName in $deviceNames) {
         }
         LogSuccess -TaskName "collectEntraObjectIDs" -Message "Found ObjectID for $deviceName : $objectId"
     } else {
+        # Track devices without Object ID and log them
+        $devicesWithoutId += [pscustomobject]@{ Name = $deviceName }
         LogError -TaskName "collectEntraObjectIDs" -ErrorMessage "No ObjectID found for $deviceName."
     }
+
+    # Increment after processing and update progress bar
+    $currentDevice++
+    $progress = ($currentDevice / $totalDevices) * 100
+    $progressText = "$([math]::Round($progress, 2))% Complete".PadRight(30)  # Ensure the progress bar status text takes up enough space
+    Write-Progress -Activity "Collecting EntraObject IDs" -Status $progressText -PercentComplete $progress
 }
 
 # Complete progress bar
@@ -77,4 +85,10 @@ try {
     Write-Host "Error saving Object IDs to CSV: $_" -ForegroundColor Red
     LogError -TaskName "collectEntraObjectIDs" -ErrorMessage "Failed to save Object IDs: $_"
     exit 1
+}
+
+# Save devices without EntraObjectID to a separate file
+if ($devicesWithoutId.Count -gt 0) {
+    $devicesWithoutId | Export-Csv -Path $devicesWithoutIdFile -NoTypeInformation
+    Write-Host "Devices without EntraObjectIDs were saved to: $devicesWithoutIdFile" -ForegroundColor Yellow
 }

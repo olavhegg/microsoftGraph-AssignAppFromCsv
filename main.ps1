@@ -4,7 +4,6 @@
 . "$PSScriptRoot/scripts/connection/DisconnectGraph.ps1"
 . "$PSScriptRoot/scripts/handlers/ShowCompletion.ps1"
 . "$PSScriptRoot/scripts/handlers/LogHandler.ps1"
-. "$PSScriptRoot/scripts/helpFunctions/CheckGraph.ps1"
 . "$PSScriptRoot/scripts/handlers/ShowIntro.ps1"
 
 # Display intro and ensure Microsoft Graph is imported
