@@ -1,3 +1,5 @@
+# This function prompts the user for a suffix and constructs a group name based on it.
+
 function PromptForGroupName {
     while ($true) {
         $suffix = Read-Host "Enter the suffix for the group name (or type 'exit' to quit). The full group name will be: CUSTOM-AAD-DEVICE-CHG-***"

@@ -1,4 +1,6 @@
-# Import the Microsoft Graph Beta module for Groups
+# This script reads devices from a CSV file, adds them to a specified group, and logs any devices without EntraObject IDs.
+
+# Import Microsoft Graph module for group management
 Import-Module Microsoft.Graph.Beta.Groups
 
 # Load helper functions
@@ -6,18 +8,18 @@ Import-Module Microsoft.Graph.Beta.Groups
 . "$PSScriptRoot/helpFunctions/Get-IntuneGroupMembers.ps1"
 . "$PSScriptRoot/handlers/LogHandler.ps1"
 
-# Default path for device list CSV
+# Define file paths
 $devicesCsvPath = "$PSScriptRoot/../files/EntraObjectIDs.csv"
 $devicesWithoutIdCsvPath = "$PSScriptRoot/../files/DevicesWithoutEntraObjectIds.csv"
 
 # Check if the devices CSV file exists
 if (-not (Test-Path $devicesCsvPath)) {
     Write-Host "Error: Devices CSV file not found at $devicesCsvPath." -ForegroundColor Red
-    LogError -TaskName "populateGroup" -ErrorMessage "Devices CSV file not found at $devicesCsvPath."
+    LogError -TaskName "populateGroup" -ErrorMessage "Devices CSV file not found."
     exit 1
 }
 
-# Import the devices from the CSV file
+# Import devices from CSV
 try {
     $devices = Import-Csv -Path $devicesCsvPath
 } catch {
@@ -26,25 +28,22 @@ try {
     exit 1
 }
 
-# Create a list to hold devices without EntraObjectID
+# Create list for devices without EntraObjectID
 $devicesWithoutEntraObjectId = @()
 
-# Get the total number of devices for the loading bar
+# Get total device count for progress tracking
 $totalDevices = $devices.Count
 $currentDevice = 0
 
-# Display loading bar
 Write-Host "Populating group with devices..."
 
-# Loop through each device
+# Loop through each device and add to the group
 foreach ($device in $devices) {
     $currentDevice++
-    
-    # Update the progress bar for every device
     $progress = ($currentDevice / $totalDevices) * 100
     Write-Progress -Activity "Populating group" -Status "$([math]::Round($progress, 2))% Complete" -PercentComplete $progress
 
-    # Skip devices that do not have an EntraObjectID
+    # Skip devices without EntraObjectID
     if (-not $device.EntraObjectID) {
         $devicesWithoutEntraObjectId += $device.Name
         continue
@@ -59,14 +58,14 @@ if ($devicesWithoutEntraObjectId.Count -gt 0) {
     $devicesWithoutEntraObjectId | Export-Csv -Path $devicesWithoutIdCsvPath -NoTypeInformation
 }
 
-# Finish loading bar
+# Finish progress bar
 Write-Progress -Activity "Populating group" -Completed
 
-# Inform the user about skipped devices
+# Inform about skipped devices
 if ($devicesWithoutEntraObjectId.Count -gt 0) {
     Write-Host "`nDevices without EntraObjectIDs were skipped. A list of these devices has been saved to: $devicesWithoutIdCsvPath" -ForegroundColor Yellow
 }
 
-Write-Host "Finished populating the group with devices." -ForegroundColor Green
-LogSuccess -TaskName "populateGroup" -Message "Successfully populated group $Global:groupId with devices."
+Write-Host "Finished populating the group." -ForegroundColor Green
+LogSuccess -TaskName "populateGroup" -Message "Group $Global:groupId populated with devices."
 exit 0

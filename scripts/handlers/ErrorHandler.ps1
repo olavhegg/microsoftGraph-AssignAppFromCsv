@@ -1,6 +1,5 @@
-# ErrorHandler.ps1: Centralized error handling for tasks
+# This script provides centralized error handling for tasks based on their exit codes.
 
-# Handles errors based on task exit codes
 function HandleTaskError {
     param (
         [string]$TaskName,   # Name of the task that encountered an error
@@ -21,4 +20,3 @@ function HandleTaskError {
     # Exit with the error code
     exit $ExitCode
 }
-

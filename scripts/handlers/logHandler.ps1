@@ -1,9 +1,10 @@
-# LogHandler.ps1: Handles logging for different tasks into separate log files
+# This script handles logging for tasks, writing to separate log files based on task success or failure.
 
+# Log error messages to task-specific log files
 function LogError {
     param (
-        [string]$TaskName,       
-        [string]$ErrorMessage    
+        [string]$TaskName,       # Name of the task that encountered an error
+        [string]$ErrorMessage    # Error message to log
     )
 
     # Determine log file based on task
@@ -21,14 +22,13 @@ function LogError {
     
     # Write log message to the respective log file
     Add-Content -Path $logFilePath -Value $logMessage
-    #Write-Host "Error logged to $logFilePath" -ForegroundColor Yellow
 }
 
-# Function to log successful events
+# Log successful events to a general success log
 function LogSuccess {
     param (
-        [string]$TaskName,
-        [string]$Message
+        [string]$TaskName,   # Name of the task that succeeded
+        [string]$Message     # Success message to log
     )
 
     $logFilePath = "./logs/GeneralSuccessLog.txt"

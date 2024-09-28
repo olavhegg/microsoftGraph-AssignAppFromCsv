@@ -1,11 +1,11 @@
-# TaskHandler.ps1: Handles task execution and task-specific prompts with detailed printing
+# This script handles task execution, user prompts, and progress tracking for each task.
 
 function RunTask {
     param (
-        [string]$TaskName,         
-        [string]$ScriptPath,       
-        [hashtable]$TaskResults,   
-        [ref]$GlobalYes = $false   
+        [string]$TaskName,         # Name of the task
+        [string]$ScriptPath,       # Path to the script
+        [hashtable]$TaskResults,   # Hashtable to track task results
+        [ref]$GlobalYes = $false   # Reference to skip future prompts
     )
 
     $TaskDisplayName = $TaskName  # Store task name for printing
@@ -19,7 +19,8 @@ function RunTask {
         default { $null }
     }
 
-    if (-not $ForceRun -and $taskDescription -and -not $GlobalYes.Value) {
+    # Handle user prompts unless global "Yes" is set
+    if (-not $GlobalYes.Value -and $taskDescription) {
         do {
             Write-Host "`n$taskDescription (Y/y/n/c)" -ForegroundColor Green
             Write-Host "Y = Yes to all remaining tasks, y = Yes, n = No (Skip), c = Cancel" -ForegroundColor Green

@@ -1,9 +1,11 @@
+# This function creates a new security group in Microsoft Graph with a custom description.
+
 function CreateGroup {
     param (
         [string]$groupName
     )
 
-    # Extract the CHG process from the group name (e.g., from 'CUSTOM-AAD-DEVICE-CHG-0189318' to 'CHG0189318')
+    # Extract the CHG process from the group name (e.g., 'CHG0189318')
     $chgProcess = "CHG" + ($groupName -split '-CHG-')[1]
 
     # Create a custom description for the group
@@ -19,6 +21,7 @@ function CreateGroup {
     } | ConvertTo-Json
 
     try {
+        # Create the group in Microsoft Graph
         $newGroup = Invoke-MgGraphRequest -Method POST -Uri "https://graph.microsoft.com/v1.0/groups" -Body $groupBody -ContentType "application/json"
         $groupId = $newGroup.id
         Write-Host "Group '$groupName' successfully created with ID: $groupId."

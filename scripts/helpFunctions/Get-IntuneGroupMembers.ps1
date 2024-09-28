@@ -1,3 +1,5 @@
+# This function retrieves the members of a specified group from Microsoft Graph.
+
 function Get-GroupMembers {
     param (
         [string]$groupId,

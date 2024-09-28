@@ -1,4 +1,4 @@
-# ShowIntro.ps1: Function to print the introduction
+# This function prints the introduction message at the start of the automated process.
 
 function ShowIntro {
     Write-Host "`n--------------------------------------------------------" -ForegroundColor Green

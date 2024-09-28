@@ -1,7 +1,8 @@
-# Function to connect to Microsoft Graph with specified scopes and log errors
+# This function connects to Microsoft Graph using the provided scopes and logs success or failure.
+
 function ConnectToGraph {
     param (
-        [string[]]$Scopes
+        [string[]]$Scopes  # Scopes required for the Graph connection
     )
 
     if (-not $Scopes -or $Scopes.Count -eq 0) {
@@ -11,6 +12,7 @@ function ConnectToGraph {
     }
 
     try {
+        # Attempt to connect to Microsoft Graph with the specified scopes
         $connection = Connect-MgGraph -Scopes $Scopes -ErrorAction Stop
 
         if ($connection) {

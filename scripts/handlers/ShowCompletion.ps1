@@ -1,9 +1,9 @@
-# ShowCompletion.ps1: Function to print the completion summary
+# This function prints the completion summary, showing the status of each task.
 
 function ShowCompletion {
     param (
-        [hashtable]$TaskResults,
-        [array]$TaskOrder  
+        [hashtable]$TaskResults,  # Task results tracked in a hashtable
+        [array]$TaskOrder         # Order in which tasks were run
     )
 
     Write-Host "`n--------------------------------------------------------" -ForegroundColor Green
@@ -14,11 +14,11 @@ function ShowCompletion {
         if ($TaskResults.ContainsKey($task)) {
             $taskStatus = $TaskResults[$task]
             switch ($taskStatus) {
-                'Success' { Write-Host "$($task): Completed successfully." -ForegroundColor Green }
-                'Failed'  { Write-Host "$($task): Failed." -ForegroundColor Red }
-                'Skipped' { Write-Host "$($task): Skipped." -ForegroundColor Yellow }
+                'Success'   { Write-Host "$($task): Completed successfully." -ForegroundColor Green }
+                'Failed'    { Write-Host "$($task): Failed." -ForegroundColor Red }
+                'Skipped'   { Write-Host "$($task): Skipped." -ForegroundColor Yellow }
                 'Cancelled' { Write-Host "$($task): Cancelled." -ForegroundColor Red }
-                default   { Write-Host "$($task): Unknown status." -ForegroundColor Yellow }
+                default     { Write-Host "$($task): Unknown status." -ForegroundColor Yellow }
             }
         }
     }

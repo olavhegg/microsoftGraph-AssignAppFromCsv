@@ -1,21 +1,23 @@
-# Load the helper function for getting the Object ID
+# This script reads device names from an external CSV file, queries Microsoft Graph to retrieve their EntraObject IDs, and saves the results to a new CSV file.
+
+# Load helper function for fetching Object IDs
 . "$PSScriptRoot/helpFunctions/Get-DeviceObjectId.ps1"
 
 # Define file paths
 $csvInputPath = "$PSScriptRoot/../ExternalDevices.csv"
 $outputFilePath = "$PSScriptRoot/../files/EntraObjectIDs.csv"
 
-# Ensure the Microsoft Graph Beta module is loaded
+# Ensure Microsoft Graph Beta module is imported
 Import-Module Microsoft.Graph.Beta.Identity.DirectoryManagement
 
-# Check if the input CSV file exists
+# Verify the input CSV exists
 if (-not (Test-Path $csvInputPath)) {
     Write-Host "Error: Input CSV file not found at $csvInputPath." -ForegroundColor Red
-    LogError -TaskName "collectEntraObjectIDs" -ErrorMessage "Input CSV file not found at $csvInputPath."
+    LogError -TaskName "collectEntraObjectIDs" -ErrorMessage "Input CSV file not found."
     exit 1
 }
 
-# Read the device names from the CSV
+# Read device names from the CSV
 try {
     $devices = Import-Csv -Path $csvInputPath
     $deviceNames = $devices | Select-Object -ExpandProperty Name
@@ -28,26 +30,21 @@ try {
 # Prepare for output
 $results = @()
 
-# Get total device count for loading bar
+# Check if there are devices to process
 $totalDevices = $deviceNames.Count
 $currentDevice = 0
-
-# Ensure there are devices to process
 if ($totalDevices -eq 0) {
     Write-Host "No devices found to process." -ForegroundColor Yellow
     exit 0
 }
 
-# Loop through each device name and query Microsoft Graph for Object ID
+# Process each device and query Microsoft Graph for Object ID
 Write-Host "Collecting EntraObject IDs..."
 foreach ($deviceName in $deviceNames) {
     $currentDevice++
-    
-    # Update loading bar for each device
     $progress = ($currentDevice / $totalDevices) * 100
     Write-Progress -Activity "Collecting EntraObject IDs" -Status "$([math]::Round($progress, 2))% Complete" -PercentComplete $progress
 
-    # Query Microsoft Graph for Object ID
     $objectId = Get-DeviceObjectId -DeviceName $deviceName
 
     if ($objectId) {
@@ -61,18 +58,17 @@ foreach ($deviceName in $deviceNames) {
     }
 }
 
-# Finish loading bar
+# Complete progress bar
 Write-Progress -Activity "Collecting EntraObject IDs" -Completed
 
 Write-Host "Finished collecting EntraObject IDs." -ForegroundColor Green
 
-
-# Save the results to a new CSV file in the 'files' folder
+# Save the results to a CSV
 try {
     if ($results.Count -gt 0) {
         $results | Export-Csv -Path $outputFilePath -NoTypeInformation
         Write-Host "Successfully saved Object IDs to $outputFilePath" -ForegroundColor Green
-        LogSuccess -TaskName "collectEntraObjectIDs" -Message "Successfully saved Object IDs to $outputFilePath"
+        LogSuccess -TaskName "collectEntraObjectIDs" -Message "Successfully saved Object IDs."
     } else {
         Write-Host "No Object IDs found to save." -ForegroundColor Yellow
         LogError -TaskName "collectEntraObjectIDs" -ErrorMessage "No Object IDs found to save."

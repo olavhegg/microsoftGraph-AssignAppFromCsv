@@ -1,3 +1,5 @@
+# This function checks whether a group with a specified name already exists in Microsoft Graph.
+
 function CheckIfGroupExists {
     param (
         [string]$groupName

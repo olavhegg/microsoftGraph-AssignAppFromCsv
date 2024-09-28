@@ -1,4 +1,6 @@
-# Import the necessary Microsoft Graph Beta module
+# This script prompts the user for an app ID, retrieves the app name, and allows the user to assign the app to a group (Required, Available, or Uninstall).
+
+# Import Microsoft Graph module for device management
 Import-Module Microsoft.Graph.Beta.DeviceManagement
 
 # Load helper functions and log functions

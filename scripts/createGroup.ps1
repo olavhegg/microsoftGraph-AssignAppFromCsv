@@ -1,4 +1,6 @@
-# Load the functions from the 'groupFunctions' folder
+# This script prompts for a group name, checks if the group exists, and creates it if it doesn't.
+
+# Load functions for group creation
 . "$PSScriptRoot/helpFunctions/PromptForGroupName.ps1"
 . "$PSScriptRoot/helpFunctions/CheckIfGroupExists.ps1"
 . "$PSScriptRoot/helpFunctions/CreateGroup.ps1"
@@ -20,7 +22,7 @@ if ($groupExists) {
     Write-Host "Group '$groupName' already exists in Microsoft Graph." -ForegroundColor Yellow
     LogSuccess -TaskName "createGroup" -Message "Group '$groupName' already exists. Group ID: $groupId"
 } else {
-    Write-Host "Group '$groupName' does not exist. Creating the group..."
+    Write-Host "Creating group '$groupName'..."
 
     # Create the group
     $groupId = CreateGroup -groupName $groupName
@@ -31,9 +33,10 @@ if ($groupExists) {
         exit 1
     }
 
-    Write-Host "Group '$groupName' has been successfully created with Group ID: $groupId." -ForegroundColor Green
-    LogSuccess -TaskName "createGroup" -Message "Successfully created group '$groupName'. Group ID: $groupId"
+    Write-Host "Successfully created group '$groupName'. Group ID: $groupId." -ForegroundColor Green
+    LogSuccess -TaskName "createGroup" -Message "Group '$groupName' created. Group ID: $groupId"
 }
 
+# Set global group ID for use in other scripts
 $Global:groupId = $groupId
 exit 0
