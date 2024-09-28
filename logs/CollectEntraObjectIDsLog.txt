@@ -1,0 +1,2 @@
+2024-09-27 14:23:31 - Task: collectEntraObjectIDs.ps1 - Error: The term 'C:\Users\oheggelund\Documents\teamsDrammen - v2\scripts//helperFunctions/Get-DeviceObjectId.ps1' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.

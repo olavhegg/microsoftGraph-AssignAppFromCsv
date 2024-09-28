@@ -1,0 +1,8 @@
+2024-09-27 15:03:04 - Task: populateGroup.ps1 - Error: The term 'param' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 15:06:25 - Task: populateGroup.ps1 - Error: The term 'C:\Users\oheggelund\Documents\teamsDrammen - v2\scripts/../helpFunctions/Add-DeviceToGroup.ps1' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 15:07:25 - Task: populateGroup.ps1 - Error: The term 'Get-IntuneGroupMembers' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 15:11:25 - Task: populateGroup.ps1 - Error: The term 'Get-IntuneGroupMembers' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.

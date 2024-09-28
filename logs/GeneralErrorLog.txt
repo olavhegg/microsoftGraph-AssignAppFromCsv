@@ -1,0 +1,572 @@
+2024-09-27 13:34:26 - Task: ConnectToGraph - Error: The term 'Connect-MgGraph' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 13:37:37 - Task: ConnectToGraph - Error: The term 'Connect-MgGraph' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 13:40:21 - Task: ConnectToGraph - Error: The term 'Connect-MgGraph' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 13:40:30 - Task: ConnectToGraph - Error: The term 'Connect-MgGraph' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:10:59 - Task: ConnectToGraph - Error: InteractiveBrowserCredential authentication failed: User canceled authentication. 
+2024-09-27 14:24:42 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for mh-8cc2472wys : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'mh-8cc2472wys'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: b692266f-bf9a-43f0-a17b-574f153cb735
+client-request-id: bb3d1b1f-eac7-4bb0-a802-213b7934187d
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:41 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"b692266f-bf9a-43f0-a17b-574f153cb735","client-request-id":"bb3d1b1f-eac7-4bb0-a802-213b7934187d"}}}
+2024-09-27 14:24:42 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cg32565vh : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-5cg32565vh'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: d5d6c873-ab0a-4816-8fb9-3d23afa48bb3
+client-request-id: fb8c814a-e71a-40d1-b462-13e59c614b67
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:41 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"d5d6c873-ab0a-4816-8fb9-3d23afa48bb3","client-request-id":"fb8c814a-e71a-40d1-b462-13e59c614b67"}}}
+2024-09-27 14:24:42 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd3291k3n : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-5cd3291k3n'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 7a9fbb3f-a105-4ba2-b087-b310d8674039
+client-request-id: 4b8cb251-d82c-4c19-8df3-67c4b94ce9a2
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:41 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"7a9fbb3f-a105-4ba2-b087-b310d8674039","client-request-id":"4b8cb251-d82c-4c19-8df3-67c4b94ce9a2"}}}
+2024-09-27 14:24:42 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd4145qj2 : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-5cd4145qj2'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 59087409-1e9b-454b-8a4e-f61ef3849bd1
+client-request-id: ddf37624-e9f8-4494-ad93-4247c9b6a280
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:41 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"59087409-1e9b-454b-8a4e-f61ef3849bd1","client-request-id":"ddf37624-e9f8-4494-ad93-4247c9b6a280"}}}
+2024-09-27 14:24:42 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for drilkj-8272h2j : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'drilkj-8272h2j'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 67bcaa0c-70fe-4a74-bf87-8601374fed08
+client-request-id: c3791069-b520-4fdf-a1df-683de185b1ac
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:41 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"67bcaa0c-70fe-4a74-bf87-8601374fed08","client-request-id":"c3791069-b520-4fdf-a1df-683de185b1ac"}}}
+2024-09-27 14:24:42 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for drilar-11038x8 : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'drilar-11038x8'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 76bac3c4-ec1c-46f9-beda-aab2a91a9f7e
+client-request-id: 8b64260c-7217-461a-89ff-818d545faf4a
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:41 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"76bac3c4-ec1c-46f9-beda-aab2a91a9f7e","client-request-id":"8b64260c-7217-461a-89ff-818d545faf4a"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for druein-7072069 : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'druein-7072069'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 36ef3ad5-3ca6-4636-b652-a08bdbe5fb60
+client-request-id: 86b8922d-fae5-46ab-bd93-aa2eb5b0d658
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:41 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"36ef3ad5-3ca6-4636-b652-a08bdbe5fb60","client-request-id":"86b8922d-fae5-46ab-bd93-aa2eb5b0d658"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd4178dmf : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-5cd4178dmf'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 732c302f-c731-4abe-8a40-16c07482bf26
+client-request-id: 8065c039-2cf3-42ee-abe6-1065f7dda87b
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:41 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"732c302f-c731-4abe-8a40-16c07482bf26","client-request-id":"8065c039-2cf3-42ee-abe6-1065f7dda87b"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for mh-8cc2472x1m : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'mh-8cc2472x1m'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 9325b382-e959-47f0-a231-fa42af8018b2
+client-request-id: bb351ee3-4f94-47d8-ace9-7ab24debdefa
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:41 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"9325b382-e959-47f0-a231-fa42af8018b2","client-request-id":"bb351ee3-4f94-47d8-ace9-7ab24debdefa"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dk-5cg21650n2 : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dk-5cg21650n2'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: b8db06e0-3be2-44ca-851f-355140b7bcfa
+client-request-id: d846129c-d7b4-4b3a-b3ae-03b21fe9ad03
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:41 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"b8db06e0-3be2-44ca-851f-355140b7bcfa","client-request-id":"d846129c-d7b4-4b3a-b3ae-03b21fe9ad03"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for neilsh-8180ywg : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'neilsh-8180ywg'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: c0d6933a-d81f-4915-b214-ee50e0558fb4
+client-request-id: 174dcb6a-4c83-4a3a-9312-7a70c828ba99
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"c0d6933a-d81f-4915-b214-ee50e0558fb4","client-request-id":"174dcb6a-4c83-4a3a-9312-7a70c828ba99"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd3291k43 : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-5cd3291k43'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 945f0d48-d99c-4fdf-bd72-814c7d37a6f4
+client-request-id: 56446493-3b38-4e4c-8e06-eba63edf4cad
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"945f0d48-d99c-4fdf-bd72-814c7d37a6f4","client-request-id":"56446493-3b38-4e4c-8e06-eba63edf4cad"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for mh-8cc2472xcz : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'mh-8cc2472xcz'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 58abffd7-5439-4b0b-a541-0fab08880177
+client-request-id: e7ed302b-f083-4c84-830d-d0ad1f9e11c0
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"58abffd7-5439-4b0b-a541-0fab08880177","client-request-id":"e7ed302b-f083-4c84-830d-d0ad1f9e11c0"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for drilbo-146d0j7 : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'drilbo-146d0j7'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: bd0a9ada-4b10-48d4-a7fa-c261b4c967a3
+client-request-id: aec874be-989a-475b-bd65-e5f9e13bd96b
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"bd0a9ada-4b10-48d4-a7fa-c261b4c967a3","client-request-id":"aec874be-989a-475b-bd65-e5f9e13bd96b"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-pw021kt0 : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-pw021kt0'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 478758bf-df38-4b5c-b607-c47a753616e9
+client-request-id: c290c899-162a-473a-9b3b-c41deee9fab6
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"478758bf-df38-4b5c-b607-c47a753616e9","client-request-id":"c290c899-162a-473a-9b3b-c41deee9fab6"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for drildro-9404w5x : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'drildro-9404w5x'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: ac78aa70-444f-4e3c-aeda-5065b16e50d4
+client-request-id: 3821717c-6dc5-4eb6-9cea-e6b6ac6916a8
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"ac78aa70-444f-4e3c-aeda-5065b16e50d4","client-request-id":"3821717c-6dc5-4eb6-9cea-e6b6ac6916a8"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for hso-5cg246141y : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'hso-5cg246141y'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: b18106e9-bede-4f6c-ba1d-f2072dbdf92a
+client-request-id: c96dcb42-4b0f-4d9d-95a7-cbc1ff02092d
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"b18106e9-bede-4f6c-ba1d-f2072dbdf92a","client-request-id":"c96dcb42-4b0f-4d9d-95a7-cbc1ff02092d"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cg325669w : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-5cg325669w'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: f96b3120-fdc2-4738-a7cd-b2bc8613fdee
+client-request-id: 77661d50-4977-4fda-9c64-67c40750efb6
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"f96b3120-fdc2-4738-a7cd-b2bc8613fdee","client-request-id":"77661d50-4977-4fda-9c64-67c40750efb6"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd4178dvh : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-5cd4178dvh'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 66492686-8b27-445c-a930-2e3f09da80d4
+client-request-id: 96502e0e-1111-4f07-ab01-bcff7c92d33c
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"66492686-8b27-445c-a930-2e3f09da80d4","client-request-id":"96502e0e-1111-4f07-ab01-bcff7c92d33c"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dk-5cg21653pq : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dk-5cg21653pq'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 3743ebfd-ac2a-4c0f-8f38-d5e9d09a5ccb
+client-request-id: 4f4f767b-c55d-4afb-860e-4fac01e56f0d
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:42","request-id":"3743ebfd-ac2a-4c0f-8f38-d5e9d09a5ccb","client-request-id":"4f4f767b-c55d-4afb-860e-4fac01e56f0d"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dk-5cg2164zxb : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dk-5cg2164zxb'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 2c528b6e-6024-4c5d-a8f6-6c7c2e0cd523
+client-request-id: 0e144bc1-1fc3-47da-8ec2-6f7330f3b1f8
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:43","request-id":"2c528b6e-6024-4c5d-a8f6-6c7c2e0cd523","client-request-id":"0e144bc1-1fc3-47da-8ec2-6f7330f3b1f8"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd3293qwt : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-5cd3293qwt'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: f45cb482-d7f1-4f69-b5d3-1f43d52dcf50
+client-request-id: 74a8945b-98e8-4af5-a425-a347fa5e7ee1
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:43","request-id":"f45cb482-d7f1-4f69-b5d3-1f43d52dcf50","client-request-id":"74a8945b-98e8-4af5-a425-a347fa5e7ee1"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd4146g9t : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-5cd4146g9t'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: aa43adf5-ce3c-4c1a-8405-7f0d9d4a4a51
+client-request-id: 2ff5ff9d-601d-46cf-bbed-4e96548cc730
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:43","request-id":"aa43adf5-ce3c-4c1a-8405-7f0d9d4a4a51","client-request-id":"2ff5ff9d-601d-46cf-bbed-4e96548cc730"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd0198g1r : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-5cd0198g1r'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 1e9d18b9-7d08-42ae-a99a-ba40dd574c88
+client-request-id: ae86e8fb-facb-4582-a16f-d03f710d4acc
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:43","request-id":"1e9d18b9-7d08-42ae-a99a-ba40dd574c88","client-request-id":"ae86e8fb-facb-4582-a16f-d03f710d4acc"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd3297297 : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-5cd3297297'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 82116b64-4e89-4a8e-8ad3-338baa4166a0
+client-request-id: 009ec02a-b865-4e82-bd2f-6a9254a335e7
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:43","request-id":"82116b64-4e89-4a8e-8ad3-338baa4166a0","client-request-id":"009ec02a-b865-4e82-bd2f-6a9254a335e7"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for drilfr-91531q3 : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'drilfr-91531q3'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 77bd84a5-8bf7-4f43-9280-94ebcba69061
+client-request-id: 04bdac69-1cb5-43e9-b2c4-c69cb94b630f
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:43","request-id":"77bd84a5-8bf7-4f43-9280-94ebcba69061","client-request-id":"04bdac69-1cb5-43e9-b2c4-c69cb94b630f"}}}
+2024-09-27 14:24:43 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-pw021k6n : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-pw021k6n'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: d248e386-2fb9-42e2-ae15-7ae362eb5dd7
+client-request-id: 6a5f0b94-cb9e-46c8-8fb1-e0967690758e
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:43","request-id":"d248e386-2fb9-42e2-ae15-7ae362eb5dd7","client-request-id":"6a5f0b94-cb9e-46c8-8fb1-e0967690758e"}}}
+2024-09-27 14:24:44 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd1258pc5 : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-5cd1258pc5'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 707a3229-2c28-40bb-b661-009877968702
+client-request-id: c5fc0982-ad57-4148-8279-e12a5b32f135
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001C4"}}
+Date: Fri, 27 Sep 2024 12:24:42 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:24:43","request-id":"707a3229-2c28-40bb-b661-009877968702","client-request-id":"c5fc0982-ad57-4148-8279-e12a5b32f135"}}}
+2024-09-27 14:27:22 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for mh-8cc2472wys : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'mh-8cc2472wys'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: ebfd9894-a225-45d4-8948-cb7d85e7dd53
+client-request-id: b0548fb9-0f8a-4335-bb10-2ed6ebfc3ed1
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001BC"}}
+Date: Fri, 27 Sep 2024 12:27:21 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:27:22","request-id":"ebfd9894-a225-45d4-8948-cb7d85e7dd53","client-request-id":"b0548fb9-0f8a-4335-bb10-2ed6ebfc3ed1"}}}
+2024-09-27 14:27:22 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cg32565vh : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-5cg32565vh'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 052b5b86-86e6-4512-83ce-0e03655a75f0
+client-request-id: b6c3f31f-4549-4d71-a863-d121045812db
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001BC"}}
+Date: Fri, 27 Sep 2024 12:27:21 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:27:22","request-id":"052b5b86-86e6-4512-83ce-0e03655a75f0","client-request-id":"b6c3f31f-4549-4d71-a863-d121045812db"}}}
+2024-09-27 14:27:23 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd3291k3n : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-5cd3291k3n'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: c0249303-b635-4e8e-84ac-952051f68740
+client-request-id: 9e3e28dc-521a-4247-870d-c9c0a35bc0b6
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001BC"}}
+Date: Fri, 27 Sep 2024 12:27:21 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:27:22","request-id":"c0249303-b635-4e8e-84ac-952051f68740","client-request-id":"9e3e28dc-521a-4247-870d-c9c0a35bc0b6"}}}
+2024-09-27 14:27:23 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd4145qj2 : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'dse-5cd4145qj2'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: b270ba1d-5a49-4fa1-8a00-fbd68de0128f
+client-request-id: 6a49795b-d821-47f9-a53d-3e5a96e2f9d5
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001BC"}}
+Date: Fri, 27 Sep 2024 12:27:21 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:27:22","request-id":"b270ba1d-5a49-4fa1-8a00-fbd68de0128f","client-request-id":"6a49795b-d821-47f9-a53d-3e5a96e2f9d5"}}}
+2024-09-27 14:27:23 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for drilkj-8272h2j : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'drilkj-8272h2j'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: ea2467df-3da9-405e-b88c-f56de7f1803d
+client-request-id: 289a654a-3daf-45d1-8a3d-c3f58bd2961c
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001BC"}}
+Date: Fri, 27 Sep 2024 12:27:21 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:27:22","request-id":"ea2467df-3da9-405e-b88c-f56de7f1803d","client-request-id":"289a654a-3daf-45d1-8a3d-c3f58bd2961c"}}}
+2024-09-27 14:27:23 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for drilar-11038x8 : GET https://graph.microsoft.com/beta/devices?%5C=displayName%20eq%20'drilar-11038x8'&%5C=id
+HTTP/2.0 400 Bad Request
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 9efb4de2-87a2-4b92-9cb8-8f196e3cc887
+client-request-id: b859ed00-781a-40f6-b017-4ad6eb02e996
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"Norway East","Slice":"E","Ring":"2","ScaleUnit":"002","RoleInstance":"OS2PEPF000001BC"}}
+Date: Fri, 27 Sep 2024 12:27:22 GMT
+Content-Type: application/json
+Content-Encoding: gzip
+
+{"error":{"code":"Request_BadRequest","message":"Unrecognized query argument specified: '\\'.","innerError":{"date":"2024-09-27T12:27:23","request-id":"9efb4de2-87a2-4b92-9cb8-8f196e3cc887","client-request-id":"b859ed00-781a-40f6-b017-4ad6eb02e996"}}}
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for mh-8cc2472wys : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cg32565vh : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd3291k3n : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd4145qj2 : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for drilkj-8272h2j : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for drilar-11038x8 : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for druein-7072069 : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd4178dmf : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for mh-8cc2472x1m : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dk-5cg21650n2 : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for neilsh-8180ywg : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd3291k43 : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for mh-8cc2472xcz : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for drilbo-146d0j7 : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-pw021kt0 : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for drildro-9404w5x : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for hso-5cg246141y : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cg325669w : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd4178dvh : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:41 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dk-5cg21653pq : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:42 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dk-5cg2164zxb : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:42 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd3293qwt : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:42 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd4146g9t : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 14:29:42 - Task: Get-DeviceObjectId - Error: Failed to retrieve ObjectID for dse-5cd0198g1r : The term 'Get-MgBetaDevice' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-09-27 15:42:28 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxv3-in-vm-45.
+2024-09-27 15:42:30 - Task: collectEntraObjectIDs - Error: No ObjectID found for dradm-7401jxn.
+2024-09-27 15:42:31 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app108.
+2024-09-27 15:42:37 - Task: collectEntraObjectIDs - Error: No ObjectID found for neuekr-95073nc.
+2024-09-27 15:42:39 - Task: collectEntraObjectIDs - Error: No ObjectID found for drhso-6433bbq.
+2024-09-27 15:42:48 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app128.
+2024-09-27 15:42:48 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app100.
+2024-09-27 15:42:53 - Task: collectEntraObjectIDs - Error: No ObjectID found for drhso-125cr71.
+2024-09-27 15:42:56 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilko-943bzcp.
+2024-09-27 15:42:57 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilin-8367qyg.
+2024-09-27 15:43:08 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app121.
+2024-09-27 15:43:11 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app103.
+2024-09-27 15:43:12 - Task: collectEntraObjectIDs - Error: No ObjectID found for druega-921c70j.
+2024-09-27 15:43:13 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app125.
+2024-09-27 15:43:21 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app122.
+2024-09-27 15:43:32 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app109.
+2024-09-27 15:43:33 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app120.
+2024-09-27 15:43:39 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app102.
+2024-09-27 15:43:42 - Task: collectEntraObjectIDs - Error: No ObjectID found for druein-137dqd9.
+2024-09-27 15:43:46 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-vis100.
+2024-09-27 15:43:47 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilak-7115hzs.
+2024-09-27 15:43:50 - Task: collectEntraObjectIDs - Error: No ObjectID found for neuevv-95071lh.
+2024-09-27 15:43:54 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app104.
+2024-09-27 15:43:55 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app129.
+2024-09-27 15:43:57 - Task: collectEntraObjectIDs - Error: No ObjectID found for drbv-6213hm8.
+2024-09-27 15:43:58 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app123.
+2024-09-27 15:43:58 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app130.
+2024-09-27 15:44:00 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app119.
+2024-09-27 15:44:00 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app127.
+2024-09-27 15:44:03 - Task: collectEntraObjectIDs - Error: No ObjectID found for neilkr-7503c59.
+2024-09-27 15:44:06 - Task: collectEntraObjectIDs - Error: No ObjectID found for mh-8cc2472x04.
+2024-09-27 15:44:08 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-vis101.
+2024-09-27 15:44:10 - Task: collectEntraObjectIDs - Error: No ObjectID found for neuevv-9260l42.
+2024-09-27 15:44:10 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app105.
+2024-09-27 15:44:11 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app107.
+2024-09-27 15:44:11 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app110.
+2024-09-27 15:44:17 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app106.
+2024-09-27 15:44:17 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilfr-1036hvc.
+2024-09-27 15:44:18 - Task: collectEntraObjectIDs - Error: No ObjectID found for druein-70728t4.
+2024-09-27 15:44:24 - Task: collectEntraObjectIDs - Error: No ObjectID found for svilsv-8204j8g.
+2024-09-27 15:44:26 - Task: collectEntraObjectIDs - Error: No ObjectID found for druein-9519lh2.
+2024-09-27 15:44:27 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilin-8367qzp.
+2024-09-27 15:44:29 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app101.
+2024-09-27 15:44:32 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app124.
+2024-09-27 15:44:39 - Task: collectEntraObjectIDs - Error: No ObjectID found for dradm-7490kf2.
+2024-09-27 15:44:42 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app131.
+2024-09-27 15:44:46 - Task: collectEntraObjectIDs - Error: No ObjectID found for dradm-7460m5y.
+2024-09-27 15:44:51 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilfj-8120qxy.
+2024-09-27 15:45:01 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilma-8120lqj.
+2024-09-27 15:45:02 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app126.
+2024-09-27 15:45:15 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilsk-8272fvy.
+2024-09-27 15:52:47 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxv3-in-vm-45.
+2024-09-27 15:52:49 - Task: collectEntraObjectIDs - Error: No ObjectID found for dradm-7401jxn.
+2024-09-27 15:52:49 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app108.
+2024-09-27 15:52:55 - Task: collectEntraObjectIDs - Error: No ObjectID found for neuekr-95073nc.
+2024-09-27 15:52:58 - Task: collectEntraObjectIDs - Error: No ObjectID found for drhso-6433bbq.
+2024-09-27 15:58:40 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxv3-in-vm-45.
+2024-09-27 15:58:42 - Task: collectEntraObjectIDs - Error: No ObjectID found for dradm-7401jxn.
+2024-09-27 15:58:43 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app108.
+2024-09-27 15:58:50 - Task: collectEntraObjectIDs - Error: No ObjectID found for neuekr-95073nc.
+2024-09-27 15:58:52 - Task: collectEntraObjectIDs - Error: No ObjectID found for drhso-6433bbq.
+2024-09-27 15:59:01 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app128.
+2024-09-27 15:59:01 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app100.
+2024-09-27 15:59:07 - Task: collectEntraObjectIDs - Error: No ObjectID found for drhso-125cr71.
+2024-09-27 15:59:09 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilko-943bzcp.
+2024-09-27 15:59:10 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilin-8367qyg.
+2024-09-27 15:59:19 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app121.
+2024-09-27 15:59:22 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app103.
+2024-09-27 15:59:23 - Task: collectEntraObjectIDs - Error: No ObjectID found for druega-921c70j.
+2024-09-27 15:59:25 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app125.
+2024-09-27 15:59:33 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app122.
+2024-09-27 15:59:45 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app109.
+2024-09-27 15:59:46 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app120.
+2024-09-27 15:59:52 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app102.
+2024-09-27 15:59:55 - Task: collectEntraObjectIDs - Error: No ObjectID found for druein-137dqd9.
+2024-09-27 15:59:59 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-vis100.
+2024-09-27 16:00:00 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilak-7115hzs.
+2024-09-27 16:00:04 - Task: collectEntraObjectIDs - Error: No ObjectID found for neuevv-95071lh.
+2024-09-27 16:00:09 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app104.
+2024-09-27 16:00:09 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app129.
+2024-09-27 16:00:12 - Task: collectEntraObjectIDs - Error: No ObjectID found for drbv-6213hm8.
+2024-09-27 16:00:13 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app123.
+2024-09-27 16:00:13 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app130.
+2024-09-27 16:00:16 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app119.
+2024-09-27 16:00:17 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app127.
+2024-09-27 16:00:21 - Task: collectEntraObjectIDs - Error: No ObjectID found for neilkr-7503c59.
+2024-09-27 16:00:25 - Task: collectEntraObjectIDs - Error: No ObjectID found for mh-8cc2472x04.
+2024-09-27 16:00:27 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-vis101.
+2024-09-27 16:00:29 - Task: collectEntraObjectIDs - Error: No ObjectID found for neuevv-9260l42.
+2024-09-27 16:00:30 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app105.
+2024-09-27 16:00:31 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app107.
+2024-09-27 16:00:31 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app110.
+2024-09-27 16:00:38 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app106.
+2024-09-27 16:00:38 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilfr-1036hvc.
+2024-09-27 16:00:39 - Task: collectEntraObjectIDs - Error: No ObjectID found for druein-70728t4.
+2024-09-27 16:00:46 - Task: collectEntraObjectIDs - Error: No ObjectID found for svilsv-8204j8g.
+2024-09-27 16:00:48 - Task: collectEntraObjectIDs - Error: No ObjectID found for druein-9519lh2.
+2024-09-27 16:00:49 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilin-8367qzp.
+2024-09-27 16:00:50 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app101.
+2024-09-27 16:00:53 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app124.
+2024-09-27 16:01:03 - Task: collectEntraObjectIDs - Error: No ObjectID found for dradm-7490kf2.
+2024-09-27 16:01:07 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app131.
+2024-09-27 16:01:11 - Task: collectEntraObjectIDs - Error: No ObjectID found for dradm-7460m5y.
+2024-09-27 16:01:17 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilfj-8120qxy.
+2024-09-27 16:01:26 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilma-8120lqj.
+2024-09-27 16:01:26 - Task: collectEntraObjectIDs - Error: No ObjectID found for ctxpvsin-app126.
+2024-09-27 16:01:39 - Task: collectEntraObjectIDs - Error: No ObjectID found for drilsk-8272fvy.
