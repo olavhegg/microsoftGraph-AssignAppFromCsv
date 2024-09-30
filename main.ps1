@@ -6,6 +6,15 @@
 . "$PSScriptRoot/scripts/handlers/LogHandler.ps1"
 . "$PSScriptRoot/scripts/handlers/ShowIntro.ps1"
 
+# Define if GUI mode is to be used
+$UseGUI = $false  # Set to $false to use CLI
+
+if ($UseGUI) {
+    # Load the GUI wrapper if GUI mode is enabled
+    . "$PSScriptRoot/scripts/gui/RunGui.ps1"
+    exit 0  # Exit after GUI
+}
+
 # Display intro and ensure Microsoft Graph is imported
 ShowIntro
 
