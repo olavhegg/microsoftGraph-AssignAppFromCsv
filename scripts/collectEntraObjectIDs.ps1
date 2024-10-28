@@ -80,7 +80,7 @@ foreach ($deviceName in $deviceNames) {
     # Increment after processing and update progress bar
     $currentDevice++
     $progress = ($currentDevice / $totalDevices) * 100
-    $progressText = "$([math]::Round($progress, 2))% Complete".PadRight(30)  
+    $progressText = "$([math]::Round($progress, 2))% Complete".PadRight(90)  
     Write-Progress -Activity "Collecting EntraObject IDs" -Status $progressText -PercentComplete $progress
 }
 
