@@ -135,6 +135,7 @@ You can modify the tasks and prompts easily by editing the relevant task scripts
 
 ## Known Issues
 
+- Assign App functionality is not completed!!!
 - Ensure the `ExternalDevices.csv` file is formatted correctly and is placed in the correct location.
 - The script expects the `Name` field in the CSV to match the display name of devices in Microsoft Graph.
 
