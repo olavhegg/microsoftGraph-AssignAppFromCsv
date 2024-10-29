@@ -60,6 +60,6 @@ try {
 
 } finally {
     # Disconnect from Microsoft Graph and show completion
-    #DisconnectFromGraph
+    DisconnectFromGraph
     ShowCompletion -TaskResults $TaskResults -TaskOrder $TaskOrder
 }
